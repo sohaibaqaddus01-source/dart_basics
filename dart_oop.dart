@@ -111,7 +111,7 @@ class ShoppingCart {
   }
 
   void showCart() {
-    print('--- Cart ---');
+    print('Cart');
     if (_products.isEmpty) {
       print('(nothing here)');
       return;
@@ -119,7 +119,6 @@ class ShoppingCart {
     for (int i = 0; i < _products.length; i++) {
       print('  ${i + 1}. ${_products[i]}');
     }
-    print('--- end ---');
   }
 }
 
